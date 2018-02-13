@@ -387,7 +387,7 @@ EOF
     cat <<EOF | sudo tee --append $qdr_conf_file
 log {
     module: DEFAULT
-    enable: info+
+    enable: trace+
     output: $log_file
 }
 
